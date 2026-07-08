@@ -265,3 +265,6 @@ A estetica deve ser espacial, bonita, colorida e divertida, com inspiracao no cl
 - [ ] Testar chegada ate a super ilha final.
 - [ ] Corrigir bugs encontrados.
 - [ ] Fazer uma ultima passada de diversao, clareza e visual.
+
+
+bruno gordão
