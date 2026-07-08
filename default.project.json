@@ -1,0 +1,119 @@
+{
+  "name": "pescaria",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "CodexAdditions": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Workspace/CodexAdditions"
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$ignoreUnknownInstances": true,
+      "$properties": {
+        "ClockTime": 0,
+        "Brightness": 2.15,
+        "ExposureCompensation": -0.08,
+        "Ambient": [0.22, 0.25, 0.38],
+        "OutdoorAmbient": [0.1, 0.13, 0.24],
+        "ColorShift_Top": [0.313725, 0.447059, 1],
+        "ColorShift_Bottom": [0.058824, 0.031373, 0.137255],
+        "EnvironmentDiffuseScale": 0.48,
+        "EnvironmentSpecularScale": 0.72,
+        "GlobalShadows": true,
+        "FogColor": [0.023529, 0.039216, 0.12549],
+        "FogStart": 360,
+        "FogEnd": 1200
+      },
+      "SpaceFishingAtmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Color": [0.227451, 0.313725, 0.611765],
+          "Decay": [0.019608, 0.031373, 0.117647],
+          "Density": 0.22,
+          "Offset": 0.16,
+          "Glare": 0.12,
+          "Haze": 0.36
+        }
+      },
+      "SpaceFishingBloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 0.09,
+          "Size": 20,
+          "Threshold": 1.9
+        }
+      },
+      "SpaceFishingColorGrade": {
+        "$className": "ColorCorrectionEffect",
+        "$properties": {
+          "Brightness": 0.02,
+          "Contrast": 0.08,
+          "Saturation": -0.06,
+          "TintColor": [0.901961, 0.937255, 1]
+        }
+      },
+      "SpaceFishingSky": {
+        "$className": "Sky",
+        "$properties": {
+          "CelestialBodiesShown": false,
+          "StarCount": 0,
+          "SunAngularSize": 0,
+          "MoonAngularSize": 0
+        }
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage"
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "SceneTemplates": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "SpaceFishingLobbyStatic": {
+          "$path": "src/Workspace/SpaceFishingLobbyStatic.model.json",
+          "$ignoreUnknownInstances": true
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/StarterGui"
+    },
+
+    "StarterPack": {
+      "$className": "StarterPack",
+      "$path": "src/StarterPack"
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
+    }
+  }
+}
