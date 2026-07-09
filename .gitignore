@@ -2,3 +2,26 @@
 .env.*
 !.env.example
 
+# macOS local files
+.DS_Store
+._*
+
+# Local logs/temp/builds
+*.log
+*.tmp
+tmp/
+temp/
+build/
+dist/
+out/
+
+# Rojo generated files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+sourcemap.json
+*.sourcemap.json
+
+# Optional local tooling
+node_modules/

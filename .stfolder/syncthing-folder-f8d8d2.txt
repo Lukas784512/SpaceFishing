@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: i75fp-iv67k
+created: 2026-07-08T18:33:02-03:00

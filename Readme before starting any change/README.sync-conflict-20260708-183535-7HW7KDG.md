@@ -76,8 +76,7 @@ O projeto sincroniza com Roblox Studio usando Rojo.
 Para iniciar o servidor:
 
 ```bash
-cd /caminho/para/SpaceFishing
-./scripts/start-rojo.sh
+cd /Users/lucasgabrielnascimentodossantos/Documents/pescaria && rojo serve
 ```
 
 A configuracao principal fica em:
@@ -101,8 +100,7 @@ Nao dependa de scripts de runtime para criar o chao principal ou o lobby inteiro
 Depois de alterar arquivos sincronizados pelo Rojo:
 
 ```bash
-cd /caminho/para/SpaceFishing
-./scripts/start-rojo.sh
+cd /Users/lucasgabrielnascimentodossantos/Documents/pescaria && rojo serve
 ```
 
 No Roblox Studio, pare o Play, reconecte o plugin do Rojo se necessario, aceite as mudancas no painel de sync e so depois aperte Play.
@@ -210,7 +208,6 @@ Player.Character
 ## Resumo operacional
 
 - Leia este README antes de trabalhar no projeto.
-- Leia `WORKFLOW_DEV_PLACES.md` e `CODEX_SAFETY_CHECKLIST.md` antes de trabalhar em colaboracao.
 - Preserve alteracoes manuais existentes antes de alterar cenario, iluminacao ou interface.
 - Trate `Workspace/SpaceFishingLobbyStatic` como lobby manual preservado; novas adicoes de cenario feitas pelo Codex devem ir para `Workspace/CodexAdditions` ou ser incorporadas somente depois de sincronizar/exportar o estado atual do Studio.
 - Leia `CHECKLIST_JOGO.md` antes de qualquer mudanca relacionada ao jogo.
